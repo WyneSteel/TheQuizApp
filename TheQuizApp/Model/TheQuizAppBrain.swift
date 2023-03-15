@@ -10,7 +10,8 @@ import UIKit
 
 struct TheQuizAppBrain{
     var index = 0
-    var score = 0//For system ongoing
+    var score = 0
+    var finalScore = 0
     var button: UIButton?// The TRUE and FALSE buttons
     
     //Questions and thier correct answers
@@ -23,9 +24,11 @@ struct TheQuizAppBrain{
         
         if index <= questionsAndAnswers.count-1{
             question = questionsAndAnswers[index].question
-        }else{
-            index = 0
-            question = questionsAndAnswers[index].question
+        }else{// When final question is done
+            index = 0// Reset index to zero after final question
+            finalScore = score// The final score
+            score = 0// Reset score to zero after final question
+            question = "finish"
         }
             
         return question

@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5196F9729BDEA3500D9C412 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5196F9629BDEA3500D9C412 /* ScoreViewController.swift */; };
 		F524952829B72EF40079516D /* TheQuizAppBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524952729B72EF40079516D /* TheQuizAppBrain.swift */; };
 		F524952A29B72F020079516D /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524952929B72F020079516D /* Questions.swift */; };
 		F551F17429B5C8F100400CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F17329B5C8F100400CE9 /* AppDelegate.swift */; };
 		F551F17629B5C8F100400CE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F17529B5C8F100400CE9 /* SceneDelegate.swift */; };
-		F551F17829B5C8F100400CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F17729B5C8F100400CE9 /* ViewController.swift */; };
+		F551F17829B5C8F100400CE9 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F17729B5C8F100400CE9 /* ChoiceViewController.swift */; };
 		F551F17B29B5C8F100400CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F551F17929B5C8F100400CE9 /* Main.storyboard */; };
 		F551F17D29B5C8F200400CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F551F17C29B5C8F200400CE9 /* Assets.xcassets */; };
 		F551F18029B5C8F200400CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F551F17E29B5C8F200400CE9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5196F9629BDEA3500D9C412 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		F524952729B72EF40079516D /* TheQuizAppBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQuizAppBrain.swift; sourceTree = "<group>"; };
 		F524952929B72F020079516D /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		F551F17029B5C8F100400CE9 /* TheQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551F17329B5C8F100400CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F551F17529B5C8F100400CE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F551F17729B5C8F100400CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F551F17729B5C8F100400CE9 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		F551F17A29B5C8F100400CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F551F17C29B5C8F200400CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F551F17F29B5C8F200400CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +75,8 @@
 		F551F18729B5C9FD00400CE9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F551F17729B5C8F100400CE9 /* ViewController.swift */,
+				F551F17729B5C8F100400CE9 /* ChoiceViewController.swift */,
+				F5196F9629BDEA3500D9C412 /* ScoreViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,11 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F551F17829B5C8F100400CE9 /* ViewController.swift in Sources */,
+				F551F17829B5C8F100400CE9 /* ChoiceViewController.swift in Sources */,
 				F551F17429B5C8F100400CE9 /* AppDelegate.swift in Sources */,
 				F551F17629B5C8F100400CE9 /* SceneDelegate.swift in Sources */,
 				F524952A29B72F020079516D /* Questions.swift in Sources */,
 				F524952829B72EF40079516D /* TheQuizAppBrain.swift in Sources */,
+				F5196F9729BDEA3500D9C412 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
